@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.pokeball-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #f00;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24 pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24 pt;
+    background-color: #fff;
+    color: #222;
+}
+
+.content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: #f00;
+    color: #fff;
+}
+
+.inner-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #444;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+}
