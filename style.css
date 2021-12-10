@@ -95,12 +95,19 @@ body {
     justify-content: center;
 }
 
+.dex-type {
+    color: #fff;
+    border-radius: 5px;
+}
+
 .dex-type-grass {
     background-color: green;
-    color: white;
 }
 
 .dex-type-poison {
     background-color: indigo;
-    color: white;
+}
+
+.dex-type-fire {
+    background-color: tomato;
 }
