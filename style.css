@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 .header {
@@ -50,9 +51,56 @@ body {
     justify-content: center;
 }
 
+.pokedex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .footer {
     background-color: #444;
     color: #ccc;
     display: flex;
     justify-content: center;
+}
+
+.dex-card {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dex-pkmn-img {
+    width: 50px;
+    height: 50px;
+    background-color: #aaa;
+}
+
+.dex-pkmn-number {
+    color: #333;
+}
+
+.dex-pkmn-name {
+    color: #000;
+    font-weight: bold;
+}
+
+.dex-types {
+    display: flex;
+    justify-content: center;
+}
+
+.dex-type-grass {
+    background-color: green;
+    color: white;
+}
+
+.dex-type-poison {
+    background-color: indigo;
+    color: white;
 }
